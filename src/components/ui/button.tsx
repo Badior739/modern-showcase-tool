@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        studio: "bg-primary text-primary-foreground rounded-full hover:bg-primary/90",
+        studioOutline: "border border-current bg-transparent text-inherit rounded-full hover:bg-foreground/5",
+        studioGhost: "bg-transparent text-inherit hover:text-primary rounded-none",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
